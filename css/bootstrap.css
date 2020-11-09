@@ -215,6 +215,7 @@ svg {
 
 table {
   border-collapse: collapse;
+  width: 100%;
 }
 
 caption {
@@ -228,6 +229,8 @@ caption {
 th {
   text-align: inherit;
   text-align: -webkit-match-parent;
+  align-items: center;
+  text-align: center;
 }
 
 label {
@@ -1671,7 +1674,7 @@ pre code {
 .table {
   width: 100%;
   margin-bottom: 1rem;
-  color: #212529;
+  color: rgba(232, 234, 237, 1);
 }
 
 .table th,
@@ -1684,6 +1687,7 @@ pre code {
 .table thead th {
   vertical-align: bottom;
   border-bottom: 2px solid #dee2e6;
+  vertical-align: middle;
 }
 
 .table tbody + tbody {
@@ -6790,7 +6794,7 @@ button.bg-light:focus {
 }
 
 .bg-dark {
-  background-color: rgba(32, 33, 36, 1) !important;
+  background-color: rgba(36, 36, 39, 1) !important;
 }
 
 a.bg-dark:hover, a.bg-dark:focus,

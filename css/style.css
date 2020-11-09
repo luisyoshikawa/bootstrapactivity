@@ -1,3 +1,6 @@
+body{
+    scroll-behavior: smooth;
+}
 #erros{
     width: 100%;
     margin-left: auto;
@@ -8,4 +11,26 @@
     margin-left: auto;
     margin-left: auto;
     text-align: center;
+}
+#centro{
+    margin-left: auto;
+    margin-left: auto;
+    text-align: center;
+}
+table{
+    width: 100%;
+}
+tr{
+    text-align: center;
+    align-items: center;
+}
+td{
+    border-right: 1px solid #dee2e6;
+}
+/*footer*/
+footer{
+	text-align: center;
+	width: 100%;
+	padding-bottom: 20px;
+	background-color: rgba(36, 36, 39, 1);
 }
