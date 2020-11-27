@@ -27,10 +27,10 @@ tr{
 td{
     border-right: 1px solid #dee2e6;
 }
-/*footer*/
 footer{
 	text-align: center;
 	width: 100%;
-	padding-bottom: 20px;
+    padding-bottom: 20px;
+    padding-top: 20px;
 	background-color: rgba(36, 36, 39, 1);
 }
